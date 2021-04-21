@@ -1,0 +1,32 @@
+{
+  "name": "dependency-track",
+  "version": "1.0.0",
+  "private": true,
+  "description": "tracking projects dependencies inside an organization",
+  "author": "Philippe Huot <philippe.huot@bnc.ca>",
+  "license": "ISC",
+  "homepage": "https://github.com/huop004/dependency-track",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "probot": "^11.0.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nock": "^13.0.5",
+    "smee-client": "^1.2.2"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
